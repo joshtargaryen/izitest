@@ -1,0 +1,63 @@
+.landing {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 479px){
+  .heading-holder {
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 100px;
+    left: 50px;
+    width: 50%;
+  }
+  .heading {
+    font-family: "Abril Fatface";
+    font-size: 60px;
+    color: white;
+    line-height: 60px;
+  }
+}
+
+@media screen and (min-width: 480px)  and (max-width: 1021px){
+  .heading-holder {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 40px;
+    left: 40px;
+    width: 70%;
+  }
+  .heading {
+    font-family: "Abril Fatface";
+    font-size: 100px;
+    color: white;
+    line-height: 100px;
+  }
+}
+
+@media screen and (min-width: 1022px) {
+  .heading-holder {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 40px;
+    left: 40px;
+    width: 50%;
+  }
+  .heading {
+    font-family: "Abril Fatface";
+    font-size: 160px;
+    color: white;
+    line-height: 100px;
+  }
+}
+
+h2 {
+  font-family: "Open Sans";
+}

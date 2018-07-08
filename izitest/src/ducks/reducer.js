@@ -9,11 +9,14 @@ const initialState = {
 const GRAB_MEMORIALS = "GRAB_MEMORIALS";
 
 export function grabMemorials() {
+  // List of memorials is grabbed and sorted according to creation date before it's saved.
   return {
     type: GRAB_MEMORIALS,
     payload: axios
       .get(`https://dev.requiemapp.com/public/memorial/random`)
-      .then(response => response.data)
+      .then(response =>
+        response.data.data.sort((a, b) => a.creationDate - b.creationDate)
+      )
       .catch(console.log)
   };
 }

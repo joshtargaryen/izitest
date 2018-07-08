@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 //button styler (would style according to web designer specifications, just using this for speed & prettiness)
 import { AwesomeButton } from 'react-awesome-button';
-import 'react-awesome-button/dist/themes/theme-blue.css' ;
+import 'react-awesome-button/dist/themes/theme-c137.css' ;
 
 
 const Button = ({ className, type, cb, ...props }) => {
@@ -13,7 +13,7 @@ const Button = ({ className, type, cb, ...props }) => {
         size="medium"
         action={cb}
         >
-          Share
+         { props.children }
         </AwesomeButton>
       );
     

@@ -1,14 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans");
 
 .App {
   text-align: center;
-  font-family:'Open Sans';
+  font-family: "Open Sans";
 }
-
-.heading {
-  font-family:'Abril Fatface';
-  font-size: 160px;
-  color: white;
-  line-height: 100px;
-}
-

@@ -1,32 +1,14 @@
 import React, { Component } from "react";
-//Redux
-import { connect } from "react-redux";
-import { grabMemorials } from "./ducks/reducer";
+import Homepage from "./Components/Homepage/Homepage";
+
 import "./App.css";
 
-
-class App extends Component {
+export default class App extends Component {
   render() {
-    console.log(this.props);
     return (
       <div className="App">
-        App
+        <Homepage />
       </div>
     );
   }
 }
-
-const mapStateToProps = state => {
-  return {
-    memorials: state.memorials,
-    loading: state.isLoading,
-    error: state.didError
-  };
-};
-
-export default connect(
-  mapStateToProps,
-  {
-    grabMemorials
-  }
-)(App);

@@ -1,8 +1,21 @@
-.Hero > img{
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    z-index: -1;
-    top:0;
-    left: 0;
+@media screen and (min-width: 0px) and (max-width:479px){
+    .Hero > img{
+        position: absolute;
+        height: 60vh;
+        width: 100vw;
+        z-index: -1;
+        top:0;
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .Hero > img{
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        z-index: -1;
+        top:0;
+        left: 0;
+    }
 }
