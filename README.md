@@ -6,7 +6,7 @@
 
 ## Code Samples
 
->![Alt text](./src/pic1.png "Title")<br>![Alt text](./src/pic2.png?raw=true "Title")
+>![screenshot 1](src/pic1.png )<br>![screenshot1](src/pic2.png)
 
 ## Installation
 
